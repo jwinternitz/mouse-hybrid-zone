@@ -84,6 +84,24 @@ img {
   border-radius: 6px;
 }
 
+.info-image figure {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.info-image img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.info-image figcaption {
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 0.5rem;
+}
+
 .button {
   display: inline-block;
   padding: 12px 24px;
