@@ -16,12 +16,21 @@ header {
 .header-container {
   display: flex;
   align-items: center;
-  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px;
 }
 
 .logo {
-  height: 60px;
-  width: auto;
+  height: 80px;
+  margin-right: 20px;
+  align-self: center;
+}
+
+.header-container h1,
+.header-container h2 {
+  margin: 0;
 }
 
 h1 {
